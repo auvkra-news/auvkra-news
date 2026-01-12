@@ -52,3 +52,9 @@ footer {
     text-align: center;
     padding: 10px;
 }
+.tagline {
+    font-size: 12px;
+    color: #ffd700;   /* golden yellow */
+    margin-top: 3px;
+    font-weight: bold;
+}
