@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: darkred;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.lang-btn {
+    background: white;
+    color: darkred;
+    border: none;
+    padding: 5px 10px;
+}
+
+.breaking {
+    background: black;
+    color: yellow;
+    padding: 8px;
+}
+
+.news-container {
+    padding: 15px;
+}
+
+.news-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
