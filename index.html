@@ -2,71 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AUVKRA NEWS</title>
+    <title>Your News Channel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <div class="logo">
-    <img src="logo.png" alt="AUVKRA NEWS">
-    <div class="tagline">Fast • Accurate • Reliable News</div>
-    </div>
+    <div class="logo">YOUR NEWS</div>
     <nav>
-        <a data-en="Home" data-hi="होम">Home</a>
-        <a data-en="National" data-hi="राष्ट्रीय">National</a>
-        <a data-en="International" data-hi="अंतरराष्ट्रीय">International</a>
-        <a data-en="Sports" data-hi="खेल">Sports</a>
-        <a data-en="Technology" data-hi="तकनीक">Technology</a>
+        <a href="#">Home</a>
+        <a href="#">National</a>
+        <a href="#">International</a>
+        <a href="#">Sports</a>
+        <a href="#">Technology</a>
+        <a href="#">Contact</a>
     </nav>
-    <button class="lang-btn" onclick="toggleLanguage()">हिंदी</button>
 </header>
 
-<section class="breaking">
-    <marquee data-en="Breaking News: Welcome to AUVKRA NEWS"
-             data-hi="ब्रेकिंग न्यूज़: AUVKRA NEWS में आपका स्वागत है">
-        Breaking News: Welcome to AUVKRA NEWS
-    </marquee>
-</section>
+<main>
+    <section class="breaking">
+        <marquee>Breaking News: Welcome to Your News Channel Website</marquee>
+    </section>
 
-<section class="home">
+    <section class="news-container">
+        <article class="news-card">
+            <img src="https://via.placeholder.com/300x180" alt="news">
+            <h3>Top Headline News</h3>
+            <p>This is a short description of the news article.</p>
+            <button>Read More</button>
+        </article>
 
-  <!-- Featured / Top Story -->
-  <section class="featured">
-    <h2>Top Stories</h2>
-    <div class="featured-card">
-      <h3>Breaking: Major Update Today</h3>
-      <p>Short summary of the top breaking news goes here.</p>
-    </div>
-  </section>
+        <article class="news-card">
+            <img src="https://via.placeholder.com/300x180" alt="news">
+            <h3>Latest Updates</h3>
+            <p>Important updates from around the world.</p>
+            <button>Read More</button>
+        </article>
 
-  <!-- News Grid -->
-  <section class="grid">
-    <div class="card">
-      <h4>National</h4>
-      <p>Latest national news update.</p>
-    </div>
-    <div class="card">
-      <h4>International</h4>
-      <p>World news highlights.</p>
-    </div>
-    <div class="card">
-      <h4>Sports</h4>
-      <p>Cricket, football and more.</p>
-    </div>
-    <div class="card">
-      <h4>Technology</h4>
-      <p>Tech trends and updates.</p>
-    </div>
-  </section>
-
-</section>
+        <article class="news-card">
+            <img src="https://via.placeholder.com/300x180" alt="news">
+            <h3>Sports News</h3>
+            <p>All sports highlights in one place.</p>
+            <button>Read More</button>
+        </article>
+    </section>
+</main>
 
 <footer>
-    © 2026 AUVKRA NEWS
+    <p>© 2026 Your News Channel | All Rights Reserved</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
