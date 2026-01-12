@@ -4,12 +4,10 @@ body {
 }
 
 header {
-  background: #000;
-  color: white;
-  padding: 6px 10px;   /* padding kam */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    background: #8b0000;
+    color: white;
+    padding: 12px;
+    width: 100%;
 }
 .logo {
     display: flex;
@@ -104,3 +102,51 @@ footer {
 .card h4 {
     margin-bottom: 6px;
 }
+/* LOGO FIX */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 200px;   /* logo limit */
+    width: 100%;
+    height: auto;
+    }
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: system-ui, Arial, sans-serif;
+    background: #f2f2f2;
+    }
+.news-container {
+    padding: 10px;
+}
+
+.news-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.news-card h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.news-card p {
+    font-size: 14px;
+    color: #444;
+    }
+.breaking {
+    background: black;
+    color: #ffeb3b;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    }
