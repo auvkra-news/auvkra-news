@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+body {
+    font-size: 14px;
+}
 
 header {
     background: #c62828;
@@ -15,7 +18,7 @@ header {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -24,6 +27,7 @@ nav a {
     margin-left: 15px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 14px;
 }
 
 nav a:hover {
@@ -35,6 +39,7 @@ nav a:hover {
     color: yellow;
     padding: 10px;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .news-container {
@@ -57,11 +62,13 @@ nav a:hover {
 
 .news-card h3 {
     padding: 10px;
+    font-size: 16px;
 }
 
 .news-card p {
     padding: 0 10px 10px;
     color: #555;
+    font-size: 13px;
 }
 
 .news-card button {
