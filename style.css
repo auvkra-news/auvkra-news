@@ -4,14 +4,13 @@ body {
 }
 
 header {
-    background: #000;          /* black background */
-    color: white;
-    padding: 12px;
-    display: flex;
-    align-items: center;       /* vertical align fix */
-    justify-content: space-between;
+  background: #000;
+  color: white;
+  padding: 6px 10px;   /* padding kam */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .logo {
     display: flex;
     flex-direction: column;
@@ -25,10 +24,9 @@ header {
 }
 }
 .logo img {
-    height: 40px;
-    width: auto;
-    max-width: 160px;
-    object-fit: contain;
+  height: 28px;        /* logo chhota */
+  max-width: 120px;   /* mobile friendly */
+  width: auto;
 }
 
 nav a {
